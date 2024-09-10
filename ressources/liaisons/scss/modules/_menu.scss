@@ -65,9 +65,9 @@ Effet actif : #f4d07c
 }
 /* Liens du menu */
 .menu__lien {
-    background-color: #d9d7d0;
+    background-color: #ffffff;
     display: block;
-    padding: 5px 10px;
+  
     width: 100%;
 }
 
@@ -79,16 +79,13 @@ Effet actif : #f4d07c
 
 .menu__lien:hover,
 .menu__lien:active {
-    background-color: #f5ae09;
+    color: rgb(102, 102, 102);
 }
 
 .menu__lien:focus {
-    /*outline: none;
-    border-left: 5px solid #f5ae09;*/
-    outline-offset: -5px;
-    outline: #f5ae09 auto 5px;
+    
+ 
 }
-
 .menu__lien--actif {
     border-left: 5px solid #f4d07c;
 }
@@ -113,5 +110,13 @@ Effet actif : #f4d07c
     .js .menu--ferme .menu__liste {
         max-height: none;
     }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
 
 }
