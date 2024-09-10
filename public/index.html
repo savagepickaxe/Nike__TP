@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <title>Menu mobile accessible</title>
+    <link rel="stylesheet" href="liaisons/css/_normalize.css">
+    <link rel="stylesheet" href="liaisons/css/_utilitaires.css">
+    <link rel="stylesheet" href="liaisons/css/_typo.css">
+    <link rel="stylesheet" href="liaisons/css/_grille.css">
+    <link rel="stylesheet" href="liaisons.css/styles.css">
+	
+</head>
+
+<body>
+<!--http://webaim.org/techniques/skipnav/-->
+<a href="#contenu" class="visuallyhidden focusable">Allez au contenu</a>
+
+<header role="banner">
+    <div class="conteneur">
+        <nav class="menu menu--ferme">
+            <ul class="menu__liste">
+                <li class="menu__listeItem"><a href="#" class="menu__lien">Accueil</a></li>
+                <li class="menu__listeItem"><a href="#" class="menu__lien">Niveau 1</a></li>
+                <li class="menu__listeItem"><a href="#" class="menu__lien">Niveau 2</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+<script src="liaisons/js/_menu.js"></script>
+<script>
+
+	//ajout de la classe js, pour la gestion de la feuille de style, si le JavaScript est actif
+    document.body.classList.add('js');
+</script>
+</body>
+</html>

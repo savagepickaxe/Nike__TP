@@ -1,0 +1,41 @@
+/**
+* @author Prenom Nom courriel
+* @todo Importer la police Futura.ttc
+* @todo Personnaliser les variables selon les spécifications du guide visuel
+*       Certaines variables devront être définies par une fonction de coloration
+* @todo Compléter selon l'énoncé de l'exercice
+* @todo Utiliser le sélecteur & pour les sélecteurs des différentes couleurs
+*/
+
+/** Polices de caractères **/
+@font-face {
+  font-family: Futura, sans-serif;
+  src: 	url('../fonts/Futura.ttc') format('truetype');
+}
+
+//@todo police Futura et Arial
+$fontePrimaire : "public/liaisons/fonts/Futura.ttc";
+$fonteSecondaire : "Arial";
+
+/** Palette de couleurs **/
+// Utiliser http://chir.ag/projects/name-that-color pour obtenir des noms uniques et mémorisables
+// Permettez-vous d'utiliser un nom de variable plus explicite si la suggestion de name-that-color est trop étrange
+
+/* Couleurs de base */
+/*@todo en vous basant sur le guide visuel en HTML,
+ élaborer les variables de couleur nécessaires**/
+$bleumoyen :#012D61;
+
+/* Autres couleurs */
+//@todo couleur pour les hyperliens
+$vertLime :#0eba53;
+$bleuMarin:#2678B5;
+$bleuFoncé :#1A1D23;
+$bleuClair :#4F6D7D;
+$bleuMoyen :#012D61;
+
+
+
+/** Points de rupture **/
+//@todo point de rupture
+ //$desktop :;
