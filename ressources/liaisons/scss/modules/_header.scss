@@ -1,0 +1,43 @@
+.logo{
+    width: 80px;
+  
+
+}
+header{
+    background-color: $noirClair;
+    display: flex;
+    flex-direction: column;
+  
+    padding: 0 10px;
+}
+header .conteneur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.search{
+
+    width: 40%;
+    padding: 8px;
+    border-radius: 22px;
+    background-color: black;
+    color: white;
+}
+@media (min-width: 601px) {
+    .conteneur{
+        padding:30px;
+    }
+  .menu__liste{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    left: 0;
+    position: relative;
+    right: 0;
+    margin: 30px auto;
+  }
+  .menu{
+    border-top:grey 1px solid;
+  }
+}

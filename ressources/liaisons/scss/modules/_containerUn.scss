@@ -1,0 +1,48 @@
+.container--un .imgBackg{
+    position: absolute;
+   top:100%;
+    left: 0;
+    width: 100%;
+   
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container--un{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+ 
+}
+@media (min-width: 601px) {
+    .container--un{
+        padding: 50px;
+        height: 200vh;
+        margin-bottom: -20%;
+        overflow: hidden;
+        h1{
+            font-size: 3.8em;
+            font-weight: 700;
+        }
+        p{
+            font-size: 1em;
+            width: 60%;
+            line-height: 20px;
+            margin: 0 auto;
+            color: $grisFoncé;
+        }
+    }
+    .container--un .imgBackg{
+     top:-20%;
+     width: auto;
+     height: 100%;
+     overflow: hidden;
+    
+    
+     
+     
+  }
+    
+}
